@@ -1,0 +1,34 @@
+# Claude Code
+CLAUDE.local.md
+.claude/
+skills-lock.json
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.swp
+
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.local
